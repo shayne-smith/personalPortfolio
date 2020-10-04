@@ -23,6 +23,33 @@ code
 #logo
   width: 20%
 
-.link
+.link-list
+  display: flex
+  justify-content: center
+  align-items: center
+
+@mixin link
   margin-left: 4rem
+  color: #ffffff
+  text-decoration: none
+  opacity: 0.7
+
+.link
+  @include link
+
+  &:hover
+      opacity: 1.0
+      
+#hi
+  a
+    @include link
+    display: flex
+    justify-content: center
+    align-items: center
+    opacity: 1.0
+
+  &:hover
+    img
+      transition: all .3s cubic-bezier(.05,.03,.35,1)
+      transform: rotate(20deg)
 
