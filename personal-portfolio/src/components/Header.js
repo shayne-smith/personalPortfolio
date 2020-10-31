@@ -1,5 +1,5 @@
-import React from "react";
-import Divider from "./Divider";
+import React from "react"
+import Divider from "./Divider"
 
 const Header = () => {
     return (
@@ -7,10 +7,10 @@ const Header = () => {
             <div id="header">
                 <h1 id="logo">Shayne Smith</h1>
                 <div className="link-list">
-                    <a className="link" href="https://twitter.com/shaynesm" target="_blank">Twitter</a>
-                    <a className="link" href="https://github.com/shayne-smith" target="_blank">GitHub</a>
+                    <a className="link" href="https://twitter.com/shaynesm" target="_blank" rel="noopener noreferrer">Twitter</a>
+                    <a className="link" href="https://github.com/shayne-smith" target="_blank" rel="noopener noreferrer">GitHub</a>
                     <div id="hi">
-                        <a  href="mailto:hi@shaynesmith.io" target="_blank">hi@shaynesmith.io <img src={require("../assets/waving.svg")}/></a>    
+                        <a href="mailto:hi@shaynesmith.io" target="_blank" rel="noopener noreferrer">hi@shaynesmith.io <img alt="yellow icon hand that waves" src={require("../assets/waving.svg")}/></a>    
                     </div>
                 </div>
             </div>
@@ -21,6 +21,6 @@ const Header = () => {
         </div>
         
     )
-};
+}
 
-export default Header;
+export default Header

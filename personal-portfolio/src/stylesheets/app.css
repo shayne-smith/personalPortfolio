@@ -67,7 +67,6 @@ code {
 }
 
 #highlight {
-  display: inline-block;
   position: absolute;
   top: 86px;
   right: 5%;

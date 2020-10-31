@@ -9,7 +9,7 @@ function App() {
     <div className="app">
       <Header />
       <Intro />
-      <a href='https://app-kohl.now.sh/'>Top 100 Cryptocurrencies App</a>
+      <a href='https://app-kohl.now.sh/' target="_blank" rel="noopener noreferrer">Top 100 Cryptocurrencies App</a>
     </div>
   );
 }
