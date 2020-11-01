@@ -1,9 +1,11 @@
 import React from "react";
 
-const Divider = () => {
+const Divider = (props) => {
+    const { showHighlight } = props
+
     return (
         <div id="divider">
-            <div id="highlight"></div>  
+            {showHighlight && <div id="highlight"></div>}
         </div>
     )
 };
