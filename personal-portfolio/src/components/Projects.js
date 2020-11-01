@@ -20,7 +20,7 @@ const Projects = () => {
             </div>
             <div className='project'>
                 <a href='https://jovial-tesla-79d0c9.netlify.app/' target='_blank' rel='noopener noreferrer'>OptiPricer</a>
-                <h3>Price optimization tool for AirBnB Owners powered by machine learning</h3>
+                <h3>Price optimization tool for AirBnB owners powered by machine learning</h3>
             </div>
         </section>
     )
