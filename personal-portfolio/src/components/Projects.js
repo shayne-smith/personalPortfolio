@@ -9,7 +9,7 @@ const Projects = () => {
                 <p className='sectionTitle'>PROJECTS</p>
                 <span className="sectionTitleEmoji" role='img' aria-label='crane on a building'>🏗️</span>
             </div>
-            <Divider />
+            <Divider showHighLight={false} />
             <div className='project'>
                 <a href='https://app-kohl.now.sh/' target='_blank' rel='noopener noreferrer'>Driftly</a>
                 <h3>City comparison tool for digital nomads</h3>

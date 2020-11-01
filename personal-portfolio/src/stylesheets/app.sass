@@ -1,12 +1,14 @@
 body 
   margin: 0
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif
+  font-family: 'Exo 2', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
   background-color: #000000
+
 .app
   width: 90%
   margin: 0 auto
+
 code 
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace
 
@@ -18,25 +20,31 @@ code
   padding: 1.5rem 0 0 0
   font-family: 'Exo 2', sans-serif
   font-size: 1.3rem
+
 #logo
   width: 20%
   font-size: 1.3rem
+
 .link-list
   display: flex
   justify-content: center
   align-items: center
+
 @mixin link
   margin-left: 4rem
   color: #ffffff
   text-decoration: none
   opacity: 0.7
+
 .link
   @include link
 
   &:hover
-      opacity: 1.0  
+      opacity: 1.0 
+ 
 #hi
   display: flex
+
   a
     @include link
     display: flex
@@ -53,11 +61,13 @@ code
       opacity: 1.0
       transition: all .3s cubic-bezier(.05,.03,.35,1)
       transform: rotate(20deg)
+
 #divider
   display: inline-block
   width: 100%
   height: 1px
   background-color: rgba(255, 255, 255, 0.2)
+
 #highlight
   position: absolute
   top: 90px
@@ -70,14 +80,17 @@ code
 .intro-container
   width: 50%
   margin: 1rem 0
+  font-family: 'Exo 2', sans-serif
+  font-weight: 800
 
 #emojis
-  display: inline-block
+  display: flex
   font-size: 30px
-  transition: all .3s cubic-bezier(.05,.03,.35,1)
 
+.emoji
   &:hover
-    transform: scale(1.1)
+    transform: scale(1.2)
+    transition: all .3s cubic-bezier(.05,.03,.35,1)
     cursor: default
 
 .intro-text
@@ -88,8 +101,10 @@ code
   display: flex
   justify-content: left
   align-items: center
+
 section
   margin: 80px 0 80px 0
+
 .sectionTitle
   color: rgba(255, 255, 255, 0.5)
   letter-spacing: 2px
@@ -98,11 +113,13 @@ section
   font-family: Montserrat, sans-serif
   display: inline
   margin: 0
+
 .project
   margin-top: 50px
   display: flex
   flex-flow: row nowrap
   overflow-x: hidden
+
   a
     display: flex
     justify-content: center
@@ -115,12 +132,31 @@ section
 
     &:hover
       opacity: 0.5
+
   h3
     position: absolute
     color: rgba(255, 255, 255, 0.7)
     font-size: 18px
     font-weight: 500
-    left: 200
     margin: 0 0 0 400px
+
 .sectionTitleEmoji
   margin-left: 5px
+
+// FOOTER SECTION
+.footer
+  width: 90%
+  position: absolute
+  bottom: 0
+  margin-bottom: 15px
+
+  #footerTextContainer
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+    #footerText
+      color: rgba(255, 255, 255, 0.5)
+
+    #footerEmoji
+      font-size: 25px
