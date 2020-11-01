@@ -95,12 +95,18 @@ code {
   transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
 }
 #emojis:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   cursor: default;
 }
 
 .intro-text {
   color: #ffffff;
+}
+
+.sectionWrapper {
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
 
 section {
@@ -113,6 +119,8 @@ section {
   font-size: 1.25rem;
   font-weight: 500;
   font-family: Montserrat, sans-serif;
+  display: inline;
+  margin: 0;
 }
 
 .project {
@@ -129,17 +137,22 @@ section {
   font-size: 20px;
   font-weight: 700;
   color: #ffffff;
-  transition: all 0.3s cubic-bezier(0.42, 0, 1, 1);
+  transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
 }
 .project a:hover {
   opacity: 0.5;
 }
 .project h3 {
+  position: absolute;
   color: rgba(255, 255, 255, 0.7);
   font-size: 18px;
   font-weight: 500;
-  left: 0;
+  left: 200;
   margin: 0 0 0 400px;
+}
+
+.sectionTitleEmoji {
+  margin-left: 5px;
 }
 
 /*# sourceMappingURL=app.css.map */
