@@ -38,9 +38,11 @@ code
 
 .link
   @include link
+  -webkit-transition: all 0.3s cubic-bezier(.05,.03,.35,1)
 
   &:hover
-      opacity: 1.0 
+    opacity: 1.0
+    -webkit-transition: all 0.3s cubic-bezier(.05,.03,.35,1)
  
 #hi
   display: flex
@@ -51,15 +53,19 @@ code
     justify-content: center
     align-items: center
     opacity: 1.0
+    -webkit-transition: all 0.3s cubic-bezier(.05,.03,.35,1)
 
     &:hover
-      transition: all .3s cubic-bezier(.05,.03,.35,1)
+      -webkit-transition: all .3s cubic-bezier(.05,.03,.35,1)
       opacity: 0.5
+
+  img
+    -webkit-transition: all 0.3s cubic-bezier(.05,.03,.35,1)
 
   &:hover
     img
       opacity: 1.0
-      transition: all .3s cubic-bezier(.05,.03,.35,1)
+      -webkit-transition: all .3s cubic-bezier(.05,.03,.35,1)
       transform: rotate(20deg)
 
 #divider
@@ -72,7 +78,7 @@ code
   position: absolute
   top: 90px
   right: 5%
-  width: 180px
+  width: 325px
   height: 6px
   background: linear-gradient(270deg, #F18805 0%, #BC4524 100%)
 
@@ -88,9 +94,11 @@ code
   font-size: 30px
 
 .emoji
+  -webkit-transition: all .3s cubic-bezier(.05,.03,.35,1)
+  
   &:hover
     transform: scale(1.2)
-    transition: all .3s cubic-bezier(.05,.03,.35,1)
+    -webkit-transition: all .3s cubic-bezier(.05,.03,.35,1)
     cursor: default
 
 .intro-text
@@ -129,7 +137,7 @@ section
     font-size: 20px
     font-weight: 700
     color: #ffffff
-    transition: all .3s cubic-bezier(.05,.03,.35,1)
+    -webkit-transition: all .3s cubic-bezier(.05,.03,.35,1)
 
     &:hover
       opacity: 0.5
