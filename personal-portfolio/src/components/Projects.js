@@ -11,11 +11,11 @@ const Projects = () => {
             </div>
             <Divider showHighLight={false} />
             <div className='project'>
-                <a href='https://app-kohl.now.sh/' target='_blank' rel='noopener noreferrer'>Driftly</a>
+                <a href='https://driftly.vercel.app/' target='_blank' rel='noopener noreferrer'>Driftly</a>
                 <h3>City comparison tool for digital nomads</h3>
             </div>
             <div className='project'>
-                <a href='https://app-kohl.now.sh/' target='_blank' rel='noopener noreferrer'>TopCrypto</a>
+                <a href='https://topcrypto.vercel.app/' target='_blank' rel='noopener noreferrer'>TopCrypto</a>
                 <h3>Reference tool to analyze top 100 crypto coins</h3>
             </div>
             <div className='project'>
