@@ -16,7 +16,7 @@ const Projects = () => {
             </div>
             <div className='project'>
                 <a href='https://topcrypto.vercel.app/' target='_blank' rel='noopener noreferrer'>TopCrypto</a>
-                <h3>Reference tool to analyze top 100 crypto coins</h3>
+                <h3>Reference tool to analyze top 100 cryptocurrencies</h3>
             </div>
             <div className='project'>
                 <a href='https://jovial-tesla-79d0c9.netlify.app/' target='_blank' rel='noopener noreferrer'>OptiPricer</a>
