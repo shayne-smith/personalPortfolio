@@ -102,6 +102,9 @@ code {
   font-size: 30px;
 }
 
+.emoji {
+  -webkit-transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
+}
 .emoji:hover {
   transform: scale(1.2);
   -webkit-transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
