@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div>
             <div id='header'>
-                <h1 id='logo'>Shayne Smith</h1>
+                <p id='logo'>Shayne Smith</p>
                 <div className='link-list'>
                     <a className='link' href='https://twitter.com/shaynesm' target='_blank' rel='noopener noreferrer'>Twitter</a>
                     <a className='link' href='https://github.com/shayne-smith' target='_blank' rel='noopener noreferrer'>GitHub</a>
@@ -16,7 +16,6 @@ const Header = () => {
                 </div>
             </div>
             <Divider showHighlight={true} />
-            
         </div>
         
     )
