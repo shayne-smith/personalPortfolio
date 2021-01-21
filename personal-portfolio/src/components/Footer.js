@@ -7,7 +7,7 @@ const Footer = () => {
         <section className='footer'>
             <Divider showHighlight={false} />
             <div id='footerTextContainer'>
-                <p id='footerText'>Shayne Smith © 2020</p>
+                <p id='footerText'>Shayne Smith © 2021</p>
                 <span id='footerEmoji' className='emoji' role='img' aria-label='tent emoji'>🌊</span>
             </div>
         </section>
