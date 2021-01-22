@@ -1,6 +1,7 @@
 
 // VARIABLES
 $breakpoint-mobile: 768px
+$breakpoint-1000: 1000px
   
 body 
   margin: 0
@@ -24,6 +25,9 @@ code
   padding: 1.5rem 0 0 0
   font-family: 'Exo 2', sans-serif
   font-size: 1.3rem
+
+#email-break
+  display: none
 
 #logo
   width: 20%
@@ -190,16 +194,16 @@ section
 
     #hi
       font-size: 1.0rem
-
-    #email-break
-      display: block
-
-  #highlight
-    width: 180px
   
   .intro-container
     width: 100%
 
   #emojis
     margin-top: 80px
-  
+
+@media (max-width: $breakpoint-1000)
+  #email-break
+    display: block
+    
+  #highlight
+    width: 180px
