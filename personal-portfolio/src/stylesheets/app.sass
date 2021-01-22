@@ -1,6 +1,6 @@
 
 // VARIABLES
-$breakpoint-desktop: 768px
+$breakpoint-mobile: 768px
   
 body 
   margin: 0
@@ -174,5 +174,32 @@ section
       font-size: 25px
 
 // MOBILE VERSION
-@media (max-width: $breakpoint-desktop)
-  #logo
+@media (max-width: $breakpoint-mobile)
+
+  // MOBILE HEADER
+  #header
+    padding: 0
+    margin-top: 30px
+
+    .link
+        display: none
+
+    #logo
+      font-weight: 700
+      margin: 0 0 10px 0
+
+    #hi
+      font-size: 1.0rem
+
+    #email-break
+      display: block
+
+  #highlight
+    width: 180px
+  
+  .intro-container
+    width: 100%
+
+  #emojis
+    margin-top: 80px
+  

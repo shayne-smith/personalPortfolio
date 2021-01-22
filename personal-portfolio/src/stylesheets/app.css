@@ -184,4 +184,36 @@ section {
   font-size: 25px;
 }
 
+@media (max-width: 768px) {
+  #header {
+    padding: 0;
+    margin-top: 30px;
+  }
+  #header .link {
+    display: none;
+  }
+  #header #logo {
+    font-weight: 700;
+    margin: 0 0 10px 0;
+  }
+  #header #hi {
+    font-size: 1rem;
+  }
+  #header #email-break {
+    display: block;
+  }
+
+  #highlight {
+    width: 180px;
+  }
+
+  .intro-container {
+    width: 100%;
+  }
+
+  #emojis {
+    margin-top: 80px;
+  }
+}
+
 /*# sourceMappingURL=app.css.map */
